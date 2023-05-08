@@ -1,0 +1,4 @@
+﻿  BlackJack_21.cpp
+C:\Users\Usuario\Desktop\Proyecto Derick Gutierrez Face 2\DerickGutierrez_Proyecto_ BlackJack\BlackJack_21\BlackJack_21.cpp(6,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\Usuario\Desktop\Proyecto Derick Gutierrez Face 2\DerickGutierrez_Proyecto_ BlackJack\BlackJack_21\FuncionesBlackJack.h(243): warning C4715: 'darCartaaJugador': no todas las rutas de acceso de control devuelven un valor
+  BlackJack_21.vcxproj -> C:\Users\Usuario\Desktop\Proyecto Derick Gutierrez Face 2\DerickGutierrez_Proyecto_ BlackJack\x64\Debug\BlackJack_21.exe

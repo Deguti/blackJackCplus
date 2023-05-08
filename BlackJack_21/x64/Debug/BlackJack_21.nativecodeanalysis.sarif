@@ -1,0 +1,78 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"Cartas::carta\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Usuario/Desktop/Proyecto Derick Gutierrez Face 2/DerickGutierrez_Proyecto_ BlackJack/BlackJack_21/FuncionesBlackJack.h"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 1,
+                  "endLine": 10,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Cartas::{ctor}",
+                  "decoratedName": "??0Cartas@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Cartas::carta"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Usuario/Desktop/Proyecto Derick Gutierrez Face 2/DerickGutierrez_Proyecto_ BlackJack/BlackJack_21/FuncionesBlackJack.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4d2ab473bca0ec19ad52dbfcd4bee014d8efe39e47f11e84ac00748ec155957e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/usuario/desktop/proyecto derick gutierrez face 2/derickgutierrez_proyecto_ blackjack/blackjack_21/blackjack_21.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2a7c4bfa7a2fe93525839b761467a8d0ac477a61a6483c68c26ffe39b560f254"
+          }
+        }
+      ]
+    }
+  ]
+}
